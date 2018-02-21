@@ -1,0 +1,53 @@
+
+// Body
+$body-bg: #fff;
+$code-nest-color: #d60b52;
+// Borders
+$laravel-border-color: darken($body-bg, 10%);
+$list-group-border: $laravel-border-color;
+$navbar-default-border: $laravel-border-color;
+$panel-default-border: $laravel-border-color;
+$panel-inner-border: $laravel-border-color;
+
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+
+// Brands
+$brand-primary: #16aaff;
+$brand-info: #8eb4cb;
+$brand-success: #b2e026;
+$brand-warning: #cbb956;
+$brand-danger: #e91e63;
+
+// Typography
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-size-base: 14px;
+$line-height-base: 1.6;
+$text-color: $code-nest-color;
+
+// Navbar
+$navbar-default-bg: $code-nest-color;
+
+// Buttons
+$btn-default-color: $text-color;
+
+$btn-primary-color:              #fff !default;
+$btn-primary-bg:                 $brand-success !default;
+$btn-primary-border:             $brand-success !default;
+
+$btn-success-color:              #fff !default;
+$btn-success-bg:                 transparent !default;
+$btn-success-border:             darken(#fff, 5%) !default;
+
+// Inputs
+$input-border: lighten($text-color, 40%);
+$input-border-focus: lighten($brand-primary, 25%);
+$input-color-placeholder: lighten($text-color, 30%);
+
+// Panels
+$panel-default-heading-bg: #fff;
+
+// Panels
+$line-height-computed: 50px;

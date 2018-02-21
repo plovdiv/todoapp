@@ -1,0 +1,25 @@
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a  {
+    color: #fff;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+    z-index: 3;
+    color: #fff;
+    background-color: $code-nest-color;
+    border-color: $code-nest-color;
+    cursor: default;
+}
+.pagination > li > a, .pagination > li > span {
+    z-index: 2;
+    color: $code-nest-color;
+    background-color: #eeeeee;
+    border-color: #ddd;
+}
+
